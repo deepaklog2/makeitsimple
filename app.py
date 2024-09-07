@@ -137,6 +137,7 @@ translations = {
             'username': 'उपयोगकर्ता नाम',
             'email': 'ईमेल',
             'user_id': 'उपयोगकर्ता आईडी',
+            'new_username' : 'नया_उपयोगकर्तानाम',
             'profile_picture': 'प्रोफाइल चित्र',
             'sign_out': 'साइन आउट',
             'diabetes_prediction': 'मधुमेह भविष्यवाणी',
