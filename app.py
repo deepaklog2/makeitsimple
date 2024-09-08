@@ -365,7 +365,7 @@ translations = {
     },
         'fr': {
         'login': 'Se connecter',
-        'register': 'S'inscrire',
+        'register': 'S’inscrire',
         'user_profile': 'Profil utilisateur',
         'username': 'Nom d’utilisateur',
         'new_username': 'Nouveau nom d’utilisateur',
@@ -375,7 +375,7 @@ translations = {
         'profile_picture': 'Photo de profil',
         'sign_out': 'Se déconnecter',
         'diabetes_prediction': 'Prédiction du diabète',
-        'input_features': 'Caractéristiques d’entrée',
+        'input_features': 'Caractéristiques de saisie',
         'pregnancies': 'Grossesses',
         'glucose': 'Glucose',
         'blood_pressure': 'Pression artérielle',
@@ -386,7 +386,7 @@ translations = {
         'age': 'Âge',
         'prediction': 'Prédiction',
         'risk_of_diabetes': 'Vous êtes à risque de diabète.',
-        'no_risk_of_diabetes': 'Vous n’êtes pas à risque de diabète. Bon travail en maintenant votre santé !',
+        'no_risk_of_diabetes': 'Vous n’êtes pas à risque de diabète. Bon travail pour maintenir votre santé !',
         'upload_pdf': 'Télécharger un PDF',
         'choose_pdf': 'Choisir un fichier PDF',
         'extracted_pdf_data': 'Données extraites du PDF',
@@ -394,7 +394,7 @@ translations = {
         'risk_of_diabetes_detected': 'Risque de diabète détecté.',
         'no_risk_of_diabetes_detected': 'Aucun risque de diabète détecté.',
         'contact_us': 'Nous contacter',
-        'subject': 'Objet',
+        'subject': 'Sujet',
         'message': 'Message',
         'your_email': 'Votre email',
         'send': 'Envoyer',
@@ -1008,9 +1008,9 @@ def t_translation(key):
         'message_prepared': '¡Tu mensaje ha sido preparado! Por favor revisa la consola para el contenido del correo electrónico.',
         'fill_out_all_fields': 'Por favor, completa todos los campos.'
     },
-        'fr': {
+       'fr': {
         'login': 'Se connecter',
-        'register': 'S'inscrire',
+        'register': 'S’inscrire',
         'user_profile': 'Profil utilisateur',
         'username': 'Nom d’utilisateur',
         'new_username': 'Nouveau nom d’utilisateur',
@@ -1020,7 +1020,7 @@ def t_translation(key):
         'profile_picture': 'Photo de profil',
         'sign_out': 'Se déconnecter',
         'diabetes_prediction': 'Prédiction du diabète',
-        'input_features': 'Caractéristiques d’entrée',
+        'input_features': 'Caractéristiques de saisie',
         'pregnancies': 'Grossesses',
         'glucose': 'Glucose',
         'blood_pressure': 'Pression artérielle',
@@ -1031,7 +1031,7 @@ def t_translation(key):
         'age': 'Âge',
         'prediction': 'Prédiction',
         'risk_of_diabetes': 'Vous êtes à risque de diabète.',
-        'no_risk_of_diabetes': 'Vous n’êtes pas à risque de diabète. Bon travail en maintenant votre santé !',
+        'no_risk_of_diabetes': 'Vous n’êtes pas à risque de diabète. Bon travail pour maintenir votre santé !',
         'upload_pdf': 'Télécharger un PDF',
         'choose_pdf': 'Choisir un fichier PDF',
         'extracted_pdf_data': 'Données extraites du PDF',
@@ -1039,7 +1039,7 @@ def t_translation(key):
         'risk_of_diabetes_detected': 'Risque de diabète détecté.',
         'no_risk_of_diabetes_detected': 'Aucun risque de diabète détecté.',
         'contact_us': 'Nous contacter',
-        'subject': 'Objet',
+        'subject': 'Sujet',
         'message': 'Message',
         'your_email': 'Votre email',
         'send': 'Envoyer',
@@ -1047,6 +1047,7 @@ def t_translation(key):
         'fill_out_all_fields': 'Veuillez remplir tous les champs.'
     }
 }
+ 
     return translations.get(st.session_state.language, translations['en']).get(key, key)
 
 if __name__ == "__main__":
