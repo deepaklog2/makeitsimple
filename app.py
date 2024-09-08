@@ -58,7 +58,6 @@ def authenticate_user(username, password):
 
 # Language dictionaries
 translations = {
-    {
     'en': {
         'login': 'Login',
         'register': 'Register',
