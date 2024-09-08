@@ -400,7 +400,7 @@ translations = {
         'message_prepared': 'Votre message a été préparé ! Veuillez vérifier la console pour le contenu de l’email.',
         'fill_out_all_fields': 'Veuillez remplir tous les champs.'
     },
-    'ar': {
+        'ar': {
         'login': 'تسجيل الدخول',
         'register': 'تسجيل',
         'user_profile': 'ملف المستخدم',
@@ -1122,7 +1122,6 @@ def t_translation(key):
         'fill_out_all_fields': 'يرجى ملء جميع الحقول.'
     }
 }
- 
     return translations.get(st.session_state.language, translations['en']).get(key, key)
 
 if __name__ == "__main__":
